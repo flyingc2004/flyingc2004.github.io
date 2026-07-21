@@ -100,6 +100,9 @@ section .main-body{
 
 #avatar img {
     height: max(130px,min(200px,calc(100vw/6)));
+    width: max(130px,min(200px,calc(100vw/6)));
+    object-fit: cover;
+    border-radius: 50%;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 

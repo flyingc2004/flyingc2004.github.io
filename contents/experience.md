@@ -1,21 +1,52 @@
-### **Software Engineer Intern**  
-**January 2025 – June 2025 | ByteDance**  
+### **Fudan Vision and Learning Lab (FVL) — Long-Horizon VLA Research**
+**Research Assistant | Ongoing**
 
-Worked on the development and optimization of large-scale recommendation systems, focusing on algorithm improvements and system efficiency enhancements. Contributed to real-time data processing pipelines and model optimization for personalized content delivery.
-
-#### Key Contributions:  
-- Developed and optimized recommendation algorithms to enhance user engagement and content relevance.  
-- Designed and implemented real-time data processing workflows to improve model inference efficiency.  
-- Conducted A/B testing and performance analysis to refine recommendation strategies based on user behavior data.  
+- Investigating explicit *Language Notes* as structured memory for long-horizon Vision-Language-Action agents, representing task history, current progress, environmental feedback, and failure information.
+- Developing mechanisms for task-progress tracking and memory-conditioned decision making, with the goal of improving recovery from accumulated errors during multi-stage manipulation.
+- Exploring adaptation from simulation and pretrained policies to real robot settings, which motivates my future work on tactile-enhanced VLA models.
 
 ---
 
-### **软件工程师实习生**  
-**2025年1月 – 2025年6月 | 字节跳动**  
+### **XLERobot — Real-World Multimodal Data Collection**
+**Robotics Research Engineering | [Project Repository](https://github.com/flyingc2004/xlerobot-VR)**
 
-负责大规模推荐系统的开发与优化，专注于算法改进和系统效率提升。参与实时数据处理管道的构建，并优化模型推理流程，以提升个性化内容推荐效果。
+- Engineered a real-robot teleoperation and data-collection pipeline supporting VR controllers, Nintendo Switch Joy-Con, and keyboard input.
+- Synchronized RGB observations, robot states, actions, language instructions, and task-stage metadata into multimodal trajectories for imitation learning and VLA fine-tuning.
+- Designed the pipeline to support repeatable collection across manipulation tasks and practical adaptation of learned policies to the physical platform.
 
-#### 主要贡献:  
-- 研发并优化推荐算法，提高用户互动率和内容相关性。  
-- 设计并实现实时数据处理流程，提升模型推理的计算效率。  
-- 进行A/B测试与性能分析，基于用户行为数据优化推荐策略。
+---
+
+### **AgiBot World Challenge @ ICRA 2026 — Continuous Package Sorting**
+**Robotics Research Engineering**
+
+- Built a vision-based state-recognition module with a Vision Transformer and integrated it with finite-state-machine control for continuous package sorting.
+- Improved robustness through dynamic prompt adaptation, sampler alignment, and state-transition debugging under changing visual conditions.
+- Increased task success by approximately **50% relative to the initial baseline in internal experiments**, providing hands-on experience in perception-control integration and real-world failure analysis.
+
+---
+
+### **Long-Term Memory for Large Language Models**
+**Research Project**
+
+- Studied retrieval and structured representations for long-context dialogue memory, including graph-based memory construction and top-k retrieval.
+- Implemented and evaluated EMem-style variants on LoCoMo using BLEU, F1, and LLM-based evaluation, examining how representation and retrieval choices affect memory quality.
+- Connected these findings to embodied agents, where compact, reusable memories can support temporal reasoning, task progress tracking, and recovery.
+
+---
+
+### **Robot Learning in PyBullet**
+**Simulation, Imitation Learning, and Reinforcement Learning**
+
+- Developed pushing and pick-and-place environments and collected **1,000 expert trajectories** for behavior-cloning experiments.
+- Trained MLP-based imitation-learning policies and conducted DDPG+HER experiments, followed by out-of-distribution tests to examine robustness and generalization.
+- Built an end-to-end understanding of data generation, policy training, evaluation, and simulation-to-real considerations.
+
+---
+
+### **EvalAwarePosterGen — Reader-Centered Agent Framework**
+**Agent Systems and Evaluation Research | [Project Repository](https://github.com/flyingc2004/Eval_Aware_Poster_Gen)**
+
+- Designed an evaluation-aware agent pipeline that connects paper parsing, reader-goal planning, goal-conditioned storyboarding, layout optimization, reader simulation, critique, and repair.
+- Implemented the ReaderGoalPlanner, coverage evaluators, deterministic validation, self-critique, layout-aware budgets, and goal-section grounding.
+- In a pilot ablation, planner conditioning improved storyboard-level reader-goal coverage from **0.5714 to 0.8571**, while must-goal coverage remained **1.0**; deterministic intrinsic checks achieved full validity on the pilot cases.
+- Preparing a manuscript for **AAAI 2027 submission** and extending the evaluation design toward a unified benchmark and dataset.

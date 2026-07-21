@@ -1,3 +1,7 @@
-- 校级一等奖学金, 2022.  
-
-- Outstanding Graduation Thesis, XXX University, 2023. 
+- **First Prize**, Fudan University Programming Contest, 2023
+- **Successful Participant (S Award)**, Mathematical Contest in Modeling (ICM), 2025
+- **Second-Class Undergraduate Excellent Student Scholarship** and **SCSK Second-Class Scholarship**, Fudan University, 2024–2025
+- **Third-Class Undergraduate Excellent Student Scholarship**, Fudan University, 2023–2024
+- **Outstanding Student**, Fudan University, 2024–2025
+- **Outstanding Communist Youth League Member**, Fudan University, 2023–2024 and 2024–2025
+- **Outstanding Student in Military Training**, Fudan University, 2024
