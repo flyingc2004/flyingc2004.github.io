@@ -7,7 +7,7 @@
 
 ---
 
-### **XLERobot — Real-World Multimodal Data Collection**
+### **XLeRobot — Real-World Multimodal Data Collection**
 **Robotics Research Engineering | [Project Repository](https://github.com/flyingc2004/xlerobot-VR)**
 
 - Engineered a real-robot teleoperation and data-collection pipeline supporting VR controllers, Nintendo Switch Joy-Con, and keyboard input.
