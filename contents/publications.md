@@ -1,7 +1,7 @@
 ### Manuscripts
 
 **EvalAwarePosterGen: Reader-Centered Agent Framework for Paper-to-Poster Generation**<br>
-*Manuscript in preparation for AAAI 2027 submission.*
+*Submitted to AAAI 2027.*
 
 - Proposes a closed-loop, evaluation-aware agent framework centered on what readers should understand from a scientific poster.
 - Introduces reader-goal planning, goal-conditioned storyboarding, reader simulation, deterministic validation, self-critique, and repair.
