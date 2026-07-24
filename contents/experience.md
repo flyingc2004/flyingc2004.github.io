@@ -44,7 +44,7 @@
 ---
 
 ### **Robot Learning in PyBullet**
-**Simulation, Imitation Learning, and Reinforcement Learning**
+**Simulation, Imitation Learning, and Reinforcement Learning | [Project Repository](https://github.com/flyingc2004/fdu-prml-2025)**
 
 - Developed pushing and pick-and-place environments and collected **1,000 expert trajectories** for behavior-cloning experiments.
 - Trained MLP-based imitation-learning policies and conducted DDPG+HER experiments, followed by out-of-distribution tests to examine robustness and generalization.
